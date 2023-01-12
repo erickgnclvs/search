@@ -19,7 +19,8 @@ ul a {
     background: #fff;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
-    width: 584px; 
+    width: 584px;
+    padding-left: 20px;
 }
 
 .buttons {
@@ -40,3 +41,67 @@ ul a {
     margin: 0 4px;
     background-color: whitesmoke;
 }
+
+.advsearch {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.line {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.advform {
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+form {
+    margin-top: 100px;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+.advh1 {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 20px;
+}
+
+.inputgroup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inputgroup p {
+    width: 200px;
+}
+
+.inputgroup input {
+    width: 385px;
+    margin-bottom: 10px;
+}
+
+#submitadv {
+    margin-left: 506px;
+}
+

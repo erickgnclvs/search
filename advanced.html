@@ -18,12 +18,31 @@
                 </div>
             </nav>
         </div>
-        <div id="search-group" class="">
+        <div class="advsearch">
+            <h2>Advanced Search</h2>
+        </div>
+        <div class="line"></div>
+        <h3 class="advh1">Find pages with...</h3>
+        <div class="advform ">
             <form action="https://www.google.com/search">
-                <input id="box" class="" type="text" name="q">
-                <div class="buttons">
-                    <input type="submit" value="Google Search">
-                    <input type="submit" name="btnI" value="I'm feeling lucky">
+                <div class="inputgroup">
+                    <p>all these words:</p>
+                    <input name="as_q" class="form-control" type="text">
+                </div>
+                <div class="inputgroup">
+                    <p>this exact word or phrase:</p>
+                    <input name="as_epq" class="form-control" type="text">
+                </div>
+                <div class="inputgroup">
+                    <p>any of these words:</p>
+                    <input name="as_oq" class="form-control" type="text">
+                </div>
+                <div class="inputgroup">
+                    <p>none of these words:</p>
+                    <input name="as_eq" class="form-control" type="text">
+                </div>
+                <div>
+                    <input class="btn btn-primary" id="submitadv" type="submit">
                 </div>
             </form>
         </div>
