@@ -1,0 +1,39 @@
+#search-group {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30vh;
+    padding: 20px;
+}
+
+#box {
+    width: 100%;
+}
+
+
+.buttons {
+    width: 30%;
+    margin: 5px;
+}
+
+.btnleft {
+    margin-left: 20%;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+.btn-main {
+    width: 60%;
+    margin-left: 40%;
+}
+
+@media (max-height:400px) {
+        #search-group {
+            /* background-color: blue; */
+            margin-top: 20vh;
+        }
+}
+
